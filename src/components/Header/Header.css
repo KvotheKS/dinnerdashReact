@@ -1,0 +1,60 @@
+@import url("../../global.css");
+.header {
+    background-image: url(../../../assets/backoffice.jpg);
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    position:sticky;
+    z-index: 999;
+}
+
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 0%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+}
+
+.header_logo {
+    color: var(--table-head-bg);    
+    display: flex;
+    position: absolute;
+    left: 40px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding-right: 70%;
+}
+
+.header_menu {
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+    margin-left: 20%;
+    align-items: center;
+    list-style: none;
+}
+
+.header_link {
+    color: rgba(255, 255, 255, 0.801);
+    text-decoration: none;
+    margin-right: 45px;
+}
+
+.header_link:hover {
+    color: var(--nav-link-hover-color);
+}
+
+.header_title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+}

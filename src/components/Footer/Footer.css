@@ -1,0 +1,11 @@
+@import url("../../global.css");
+.footer {
+    background-color: var(--footer-color);
+    color: #343a40b9;
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    display: grid;
+    gap: 1rem;
+    grid-auto-flow: column;
+}

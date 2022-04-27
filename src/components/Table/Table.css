@@ -1,0 +1,121 @@
+@import url("../../global.css");
+
+.full_table {
+    display: flex;
+    position: absolute;
+    width: 80%;
+    height: 35%;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+.table_head_div {
+    width: 100%;
+    height: 15%;
+    background-color: var(--table-head-bg);
+}
+
+.table_head_names {
+    width: 84%;
+    height: 100%;
+    display: grid;
+    gap: 1rem;
+    grid-auto-flow: column;
+    padding-left: 1%;
+}
+
+.table_head_name {
+    position: relative;
+    top: 20%;
+}
+
+.table_info_div {
+    width: 100%;
+    height: 85%;
+    position: absolute;
+    bottom: 0%;
+}
+
+.table_info {
+    width: 85%;
+    height: 100%;
+    table-layout: auto;
+    padding-left: 1%;
+}
+
+.table_buttons {
+    width: 15%;
+    height:100%;
+    background-color: transparent;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+}
+
+td.a {
+    font-size: 1.0rem;
+    width: 31%;
+    color: #343a4097;
+}
+
+td.b {
+    font-size: 1.0rem;
+    width: 32%;
+    color:#343a4097;
+}
+
+td.c {
+    font-size: 1.0rem;
+    color: #343a4097;
+}
+
+td.editar {
+    color: var(--edit-button-color);
+    cursor: pointer;
+}
+
+td.excluir {
+    color: var(--delete-button-color);
+    cursor: pointer;
+}
+td.excluir:hover, td.editar:hover {
+    color: var(--button-hover-color);
+}
+
+.button_div {
+    width: 100%;
+    background-color:aquamarine;
+}
+
+.button_line {
+    width: 10%;
+    margin-top: 19%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.button {
+    width:  50%;
+    min-width: 35px;
+    max-width: 50px;
+    min-height: 40px;
+    max-height: 50px;
+    height: 100%;
+    justify-content: center;
+    background-color: #8785846d;
+    color: #343a40;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: var(--button-hover-color);
+}
+
+.button_text {
+    text-align: center;
+    margin-top:10%;
+}
